@@ -2,58 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Es1</title>
 </head>
 <body>
-    <div class="container">
-        <div class="item">
-            <img src="logo.png" alt="logo where written 'simply recipes'"/>
+    <div class="center-text">
+        <img src="logo.png" alt="simply recipe logo" style="width: 200px;" class="top-margin"/>
+        <h2 class="header-text"><span style="color: rgba(127, 221, 160, 0.8);">Part of </span><b>A SIMPLE FABULOUS THANKSGIVING</b></h2>
+        <h1 style="font-size: 40px;"><div>Focaccia with Caramelized Onions,</div>Cranberries, and Brie</h1>
+        <p style="font-size: 20px;">
+            Wow your taste buds with this festive focaccia appetizer topped with sweet 
+                caramelized onions, <br>
+            tart cranberries and creamy brie. It will become your new
+            favorite holiday starter!
+        </p>
+        <img src="pizza.jpg" alt="pizza image" style="
+            border-radius: 10px; 
+            width: 800px;box-shadow: 
+            4px 4px grey;"
+            />
+        <p style="color: rgba(138, 135, 136, 0.8);">Image: Sally Vegas</p>
+        <div>
+            <div style="color: red;"><b>FEATURED IN:</b></div><a href="https://www.simplyrecipes.com/recipes/cranberry_sauce/">Fresh Cranberry Recipes That Go Beyond Sauce</a>
         </div>
-        <hr class="item divisore">
-        <div class="item titolo">
-            <h2>Part of <b>A SIMPLE FABULOUS THANKSGIVING</b></h2>
+        <h5 style="
+        font-size: 35px;
+        border-bottom: solid 2px #94fffb; 
+        padding-bottom: 25px;
+        margin: 30px;
+        "><b>Ingredients</b></h5>
+        <div style="font-size: 25px;">
+            <b>For the focaccia:</b>
+            <ul>
+                <li class="list-margin">item1</li>
+                <li class="list-margin">item2</li>
+                <li class="list-margin">item3</li>
+                <li class="list-margin">item4</li>
+            </ul>
         </div>
-    </div>
-    <div class="container2">
-        <div class="item">
-            <h1 class="text-center"><b>FOCACCIA WITH CARAMELIZED ONIONS, <br> CRANBERRIES, AND BRIE</b></h1>
-            <p style="font-size: 20px;">Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart <br> cranberries, and creamy brie. It will become your new favorite holiday starter!</p>
-            <img src="pizza.jpg" alt="pizza image"/>
-            <p class="text-center">Image: Sally Vegas</p>
+        <div style="font-size: 25px;">
+            <b>For the topping:</b>
+            <ul>
+                <li class="list-margin">item1</li>
+                <li class="list-margin">item2</li>
+                <li class="list-margin">item3</li>
+                <li class="list-margin">item4</li>
+                <li class="list-margin">item5</li>
+            </ul>
         </div>
-        <div class="item">
-            <p>a</p>
-        </div>
+        <h5 style="
+        font-size: 35px;
+        border-bottom: solid 2px #94fffb; 
+        padding-bottom: 25px;
+        margin: 30px;
+        "><b>Method</b></h5>
+        <ol>
+            <li style="font-size: 25px;"><h4><b>Make the focaccia dough</b></h4>
+            <p style="margin-left: 220px;margin-right: 220px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                est laborum.
+            </p>
+            </li>
+        </ol>
+        <footer style="font-size: 20px;">
+            <h3>Read more on <a href="https://www.simplyrecipes.com/">Simply Recipes</a></h3>
+        </footer>
     </div>
 </body>
 </html>
 
 <style>
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .item {
-
-    }
-    .divisore {
-        background-color: yellow;
-        width: 3px;
-    }
-    .titolo {
-        color: #2b4a33;
-        background-color: #fbffe8;
-    }
-    .container2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: stretch;
-    }
-    .text-center {
-        text-align: center;
-    }
+body {
+    margin: 0px;
+}
+.top-margin {
+    margin-top: 3px;
+}
+.center-text {
+    text-align: center;
+}
+.header-text {
+    color: green;
+    background-color: #fffade;
+    font-size: 20px;
+    padding: 10px;
+    border-top: solid 3px #e0e332;
+} 
+.list-margin {
+    margin: 10px;
+}
 </style>
